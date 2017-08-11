@@ -1,5 +1,7 @@
-# scrabble
+# Scrabble
 
-# Technology 
+A Ruby terminal app for calculating scrabble scores. 
 
-Written in ruby
+## Technology 
+
+Written in ruby. 
