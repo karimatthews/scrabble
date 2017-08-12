@@ -13,10 +13,6 @@
 
 # create table with letters and values
 
-
-
-
-
 letters = {
   "a" => 1,
   "e" => 1,
@@ -46,12 +42,10 @@ letters = {
   "z" => 10,
 }
 
-# puts letters[]
-
 # allow user to input a word
 
 puts "What word would you like to calculate the score of?"
-puts ""
+puts
 
 #get the word from the user
 word = gets
@@ -66,7 +60,6 @@ score = score.map { |l| l.downcase }.map { |l| letters[l]  }
 score = score.reduce( :+ ).to_s
 
 
-puts ""
+puts
 puts ("The scrabble score for your word is " + score + ".")
-puts ""
-# calculate the score of the word
+puts
